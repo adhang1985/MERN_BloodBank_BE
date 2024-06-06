@@ -20,7 +20,8 @@ const registerUser = async(req,res) => {
 
         return res.status(201).send({
             success:true,
-            message: "User Registered Successfully"
+            message: "User Registered Successfully",
+            newUser
         })
 
     } catch (error) {
